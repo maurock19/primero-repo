@@ -1,0 +1,10 @@
+img{
+    margin:0 auto;
+	height: 364px;
+    width: 960px;
+    top: 0;
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}

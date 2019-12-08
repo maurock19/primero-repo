@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background: red;
+    display: grid;
+    grid-template-columns: 20% 70%;
+}
+
+main {
+    display: block;
+}
+
+.menues h3 {
+    margin: 20px;
+    border: 2px solid;
+    display: inline-table;
+    padding: 3px;
+    margin-left: 30px;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-left 0.6s ;
+}
+
+.menues h3:hover{
+    padding-left: 50px;
+}
+
+.menues img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.aside{
+    background: #E76363;
+}
+
+.menues section {
+    margin: 30px;
+    color: white;
+    text-decoration-line: overline;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-left 0.6s ;
+}
+.menues section:hover{
+    padding-left: 50px;
+}
+
+.subtittle {
+    margin-left: 450px;
+    -moz-animation-delay: 4s;
+}
+
+.cajas {
+    display: inline-flex;
+    margin-left: 220px;
+}
+
+#inicio h2 {
+    border: 2px solid white;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#history h2 {
+    border: 2px solid white;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#ingre h2 {
+    border: 2px solid white;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#mapa h2 {
+    border: 2px solid white;
+    margin-right: 20px;
+    padding: 5px;
+
+}
+
+.threed img{
+    margin-top: 40px;
+    filter: saturate(180%);
+    scroll-margin-left: 200px;
+}
+.threed ul{
+    display:flex;
+
+    animation: cambio 7s infinite alternate;
+}
+
+.threed li{
+    list-style: none;
+}
+
+.titulopag {
+    margin-left: 300px;
+}
+
+.threed{
+    overflow: hidden;
+    margin-left: 35px;
+}
+.imagesone{
+    width: 910px;
+}
+.imagesthwo{
+    width: 868px;
+    height: 683px;
+}
+.imagesthree{
+    width: 910px;
+    height: 683px;
+}
+
+@keyframes cambio{
+    0%{ margin-left: 0%;}
+    30%{ margin-left: 0%;}
+
+    35%{ margin-left: -100%;}
+    65%{ margin-left: -100%;}
+
+    70%{ margin-left: -200%;}
+    100%{ margin-left: -200%;}
+}
