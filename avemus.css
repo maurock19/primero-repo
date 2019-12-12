@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: red;
+    background:red;
     display: grid;
     grid-template-columns: 20% 70%;
 }
@@ -29,8 +29,13 @@ main {
 }
 .aside{
     background: #E76363;
+    border-right: 1px solid black;
 }
-
+.cabezeramain{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
 .menues section {
     margin: 30px;
     color: white;
@@ -86,6 +91,7 @@ main {
     display:flex;
 
     animation: cambio 7s infinite alternate;
+    
 }
 
 .threed li{
@@ -98,27 +104,37 @@ main {
 
 .threed{
     overflow: hidden;
-    margin-left: 35px;
+    margin-left: 45px;
 }
 .imagesone{
     width: 910px;
+    border-radius: 40px;
 }
 .imagesthwo{
-    width: 868px;
-    height: 683px;
+    width: 910px;  
+    border-radius: 40px;
+    
 }
 .imagesthree{
     width: 910px;
-    height: 683px;
+    border-radius: 40px;
 }
 
 @keyframes cambio{
     0%{ margin-left: 0%;}
-    30%{ margin-left: 0%;}
+    35%{ margin-left: 0%;}
 
     35%{ margin-left: -100%;}
     65%{ margin-left: -100%;}
 
-    70%{ margin-left: -200%;}
+    65%{ margin-left: -200%;}
     100%{ margin-left: -200%;}
+}
+
+footer{
+    background: #E76363; 
+}
+
+br{
+    background:#E76363 ;
 }
